@@ -188,6 +188,11 @@ export default function Home() {
 
           <div className="panel city-panel">
             <div className="city-title-row"><div><span className="eyebrow">DESTINO SELECCIONADO</span><h1>Monterrey<br /><em>Centro</em></h1></div><div className="pin-badge"><MapPin size={17} /></div></div>
+            <div className="city-reference" role="img" aria-label="Vista panorámica del Cerro de la Silla en Monterrey">
+              <div className="city-reference-overlay" />
+              <div className="city-reference-caption"><span>REFERENCIA VISUAL / MTY-04</span><strong>CERRO DE LA SILLA</strong></div>
+              <div className="city-reference-pin"><MapPin size={12} /> 9.2 KM</div>
+            </div>
             <div className="city-stats">{cityStats.map((stat) => <div key={stat.label}><span>{stat.label}</span><strong>{stat.value}</strong></div>)}</div>
             <div className="city-note"><LocateFixed size={15} /><span>Zona metropolitana<br /><b>Nuevo León · México</b></span></div>
             <button className="route-button" onClick={handleSearch.bind(null, { preventDefault: () => undefined } as FormEvent<HTMLFormElement>)}>RECALCULAR RUTA <ArrowUpRight size={16} /></button>

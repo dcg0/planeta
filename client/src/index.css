@@ -175,11 +175,11 @@ button { color: inherit; }
 .landmass { position: absolute; z-index: 4; background: linear-gradient(140deg, rgba(122, 203, 122, .86), rgba(35, 122, 98, .64) 58%, rgba(12, 48, 57, .2)); filter: drop-shadow(0 0 7px rgba(74, 209, 159, .33)); opacity: .7; }
 .landmass-a { width: 52%; height: 29%; left: 21%; top: 31%; border-radius: 58% 43% 65% 37% / 38% 57% 46% 62%; transform: rotate(-20deg); clip-path: polygon(0 25%, 20% 3%, 34% 16%, 47% 9%, 66% 21%, 79% 10%, 100% 39%, 83% 51%, 89% 78%, 57% 72%, 43% 96%, 23% 75%, 5% 83%); }
 .landmass-b { width: 34%; height: 25%; right: 3%; bottom: 19%; border-radius: 50% 55% 37% 68%; transform: rotate(24deg); opacity: .38; clip-path: polygon(0 20%, 21% 0, 37% 18%, 64% 5%, 100% 39%, 83% 84%, 60% 71%, 35% 100%, 16% 72%); }
-.city-glow { position: absolute; z-index: 5; width: 30%; height: 24%; left: 37%; top: 40%; border-radius: 50%; background: radial-gradient(circle, rgba(255, 102, 172, .82), rgba(255, 102, 172, .18) 35%, transparent 71%); filter: blur(7px); opacity: .85; }
+.city-glow { position: absolute; z-index: 5; width: 22%; height: 18%; left: 40%; top: 18%; border-radius: 50%; background: radial-gradient(circle, rgba(255, 102, 172, .82), rgba(255, 102, 172, .18) 35%, transparent 71%); filter: blur(7px); opacity: .85; }
 .route-path { position: absolute; z-index: 6; inset: 19% 15% 18% 19%; border: 1px dashed rgba(89, 242, 255, .52); border-left-color: transparent; border-radius: 48%; transform: rotate(-29deg); opacity: .8; }
 .route-point { position: absolute; width: 5px; height: 5px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 9px var(--cyan); }
 .point-one { left: 5%; top: 48%; } .point-two { left: 43%; top: 18%; background: var(--pink); box-shadow: 0 0 9px var(--pink); } .point-three { right: 3%; bottom: 22%; background: var(--lime); box-shadow: 0 0 9px var(--lime); }
-.city-marker { position: absolute; z-index: 8; left: 48%; top: 45%; display: flex; align-items: center; gap: 7px; transform: translate(-3px, -3px); }
+.city-marker { position: absolute; z-index: 8; left: 50.6%; top: 26.3%; display: flex; align-items: center; gap: 7px; transform: translate(-3px, -3px); }
 .marker-core { width: 7px; height: 7px; background: #fff; border: 2px solid var(--pink); border-radius: 50%; box-shadow: 0 0 0 4px rgba(255, 79, 171, .2), 0 0 17px var(--pink); }
 .marker-pulse { position: absolute; left: -5px; width: 16px; height: 16px; border: 1px solid var(--pink); border-radius: 50%; animation: ping 2s ease-out infinite; }
 .marker-label { margin-left: 2px; white-space: nowrap; color: #f4c9e1; font-family: var(--mono); font-size: 8px; letter-spacing: .12em; text-shadow: 0 0 8px #05070c; }

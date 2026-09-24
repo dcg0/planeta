@@ -31,3 +31,12 @@ pnpm build
 ```
 
 > La experiencia usa un asset gestionado por WebDev para su preview desplegado. El archivo fuente `assets/planeta.png` se incluye en este repositorio para conservar la imagen original.
+
+
+## Sitio publicado
+
+La versión desplegada de la experiencia está disponible en:
+
+https://monterreyn-awntxqu8.manus.space/
+
+El repositorio conserva el código completo de la página, la textura `assets/planeta.png` y los archivos `planeta.png` y `qrplaneta.jpg` añadidos al repo.

@@ -37,6 +37,6 @@ pnpm build
 
 La versión desplegada de la experiencia está disponible en:
 
-https://monterreyn-awntxqu8.manus.space/
+https://dcg0.github.io/planeta/
 
 El repositorio conserva el código completo de la página, la textura `assets/planeta.png` y los archivos `planeta.png` y `qrplaneta.jpg` añadidos al repo.

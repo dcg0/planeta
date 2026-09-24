@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="qrplaneta.jpg" width="45%" alt="Código QR espacial" />
+  <img src="planeta.png" width="45%" alt="Vista de la Tierra y laboratorio" />
+</p>
+
+
 # MONTERREY // NEON EARTH
 
 Experiencia web interactiva con estética cyberpunk para explorar Monterrey Centro mediante un globo planetario visual, capas de datos, modos de visualización y controles de navegación.

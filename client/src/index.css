@@ -64,7 +64,7 @@ button { color: inherit; }
   position: absolute;
   z-index: -4;
   inset: 0;
-  background-image: linear-gradient(180deg, rgba(6, 9, 15, 0.97) 0%, rgba(6, 9, 15, 0.84) 38%, rgba(6, 9, 15, 0.97) 100%), url("/manus-storage/neon-earth-backdrop_3b253832.jpg");
+  background-image: linear-gradient(180deg, rgba(6, 9, 15, 0.97) 0%, rgba(6, 9, 15, 0.84) 38%, rgba(6, 9, 15, 0.97) 100%), url("/assets/neon-earth-backdrop.jpg");
   background-size: cover;
   background-position: center;
   opacity: .28;
@@ -167,7 +167,7 @@ button { color: inherit; }
 .atmosphere-two { width: 490px; height: 490px; border: 1px solid rgba(89, 242, 255, .16); box-shadow: 0 0 45px rgba(89, 242, 255, .15), inset 0 0 35px rgba(89, 242, 255, .1); }
 .planet-wrap { position: relative; width: min(37vw, 390px); height: min(37vw, 390px); display: grid; place-items: center; z-index: 1; transition: transform .35s cubic-bezier(.23, 1, .32, 1); }
 .planet-wrap.tracking { animation: floatPlanet 7s ease-in-out infinite; }
-.planet { width: 100%; height: 100%; position: relative; overflow: hidden; border-radius: 50%; clip-path: circle(50% at 50% 50%); background: linear-gradient(138deg, rgba(7, 24, 34, .22), rgba(3, 7, 14, .46)), url("/manus-storage/planeta_fa02ec94.png") center / cover no-repeat; box-shadow: -17px 16px 35px rgba(0, 0, 0, .62), inset -21px -18px 42px rgba(0, 0, 0, .78), inset 14px 8px 34px rgba(95, 220, 237, .24), 0 0 0 8px rgba(89, 242, 255, .04), 0 0 42px rgba(89, 242, 255, .27); transition: transform .35s cubic-bezier(.23, 1, .32, 1), filter .25s ease; }
+.planet { width: 100%; height: 100%; position: relative; overflow: hidden; border-radius: 50%; clip-path: circle(50% at 50% 50%); background: linear-gradient(138deg, rgba(7, 24, 34, .22), rgba(3, 7, 14, .46)), url("/assets/planeta.png") center / cover no-repeat; box-shadow: -17px 16px 35px rgba(0, 0, 0, .62), inset -21px -18px 42px rgba(0, 0, 0, .78), inset 14px 8px 34px rgba(95, 220, 237, .24), 0 0 0 8px rgba(89, 242, 255, .04), 0 0 42px rgba(89, 242, 255, .27); transition: transform .35s cubic-bezier(.23, 1, .32, 1), filter .25s ease; }
 .planet::before { display: none; }
 .planet::after { content: ""; position: absolute; inset: 0; border-radius: 50%; background: radial-gradient(circle at 30% 23%, transparent 1%, rgba(8, 11, 18, .02) 35%, rgba(3, 6, 12, .64) 88%, rgba(0, 0, 0, .8) 100%); }
 .planet-shine { position: absolute; z-index: 2; inset: 0; border-radius: 50%; background: radial-gradient(ellipse at 27% 18%, rgba(192, 250, 255, .28), transparent 28%), linear-gradient(118deg, transparent 30%, rgba(110, 217, 219, .07) 48%, transparent 70%); mix-blend-mode: screen; }
@@ -216,7 +216,7 @@ button { color: inherit; }
 .mode-orbital { background: radial-gradient(circle at 30% 28%, #73dcdf, #10556d 48%, #08121d 74%); box-shadow: 0 0 9px rgba(89, 242, 255, .28); }.mode-satellite { background: linear-gradient(135deg, #7b8d97, #152932); }.mode-terrain { background: linear-gradient(140deg, #c9f56a 8%, #3a7a69 43%, #092036 45%); }
 .city-panel { padding-bottom: 14px; }
 .city-title-row { display: flex; justify-content: space-between; padding: 17px 14px 15px; }.city-title-row h1 { margin: 7px 0 0; font-size: 27px; line-height: .92; font-weight: 500; letter-spacing: -.04em; }.city-title-row h1 em { font-style: normal; color: var(--cyan); }.pin-badge { width: 32px; height: 32px; display: grid; place-items: center; border: 1px solid rgba(255, 79, 171, .38); color: var(--pink); background: rgba(255, 79, 171, .09); }
-.city-reference { height: 104px; position: relative; overflow: hidden; border-top: 1px solid rgba(137, 168, 195, .13); border-bottom: 1px solid rgba(137, 168, 195, .13); background: #142c3d url("/manus-storage/monterrey-cerro-de-la-silla_c563a8de.webp") center 54% / cover no-repeat; filter: saturate(.86) contrast(1.1); }
+.city-reference { height: 104px; position: relative; overflow: hidden; border-top: 1px solid rgba(137, 168, 195, .13); border-bottom: 1px solid rgba(137, 168, 195, .13); background: #142c3d url("/assets/monterrey-cerro-de-la-silla.webp") center 54% / cover no-repeat; filter: saturate(.86) contrast(1.1); }
 .city-reference::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(5, 10, 17, .12), rgba(5, 10, 17, .82)), linear-gradient(90deg, rgba(5, 10, 17, .58), transparent 58%); }
 .city-reference-overlay { position: absolute; inset: 0; z-index: 1; background: repeating-linear-gradient(0deg, transparent 0 14px, rgba(89, 242, 255, .11) 15px, transparent 16px); opacity: .42; pointer-events: none; }
 .city-reference-caption { position: absolute; z-index: 2; left: 13px; bottom: 11px; display: flex; flex-direction: column; gap: 4px; }.city-reference-caption span, .city-reference-pin { font-family: var(--mono); font-size: 7px; letter-spacing: .1em; color: #9fb3c1; }.city-reference-caption strong { color: #f0f6f8; font-size: 11px; font-weight: 500; letter-spacing: .06em; }.city-reference-pin { position: absolute; z-index: 2; right: 11px; top: 10px; display: flex; align-items: center; gap: 4px; color: var(--pink); }.city-reference-pin svg { filter: drop-shadow(0 0 4px var(--pink)); }

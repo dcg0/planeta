@@ -76,6 +76,7 @@ function writeToLogFile(source: LogSource, entries: unknown[]) {
  */
 function vitePluginManusDebugCollector(): Plugin {
   return {
+    apply: "serve",
     name: "manus-debug-collector",
 
     transformIndexHtml(html) {
@@ -206,6 +207,7 @@ function vitePluginStorageProxy(): Plugin {
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
 
 export default defineConfig({
+  base: process.env.GITHUB_ACTIONS ? "/planeta/" : "/",
   plugins,
   resolve: {
     alias: {
